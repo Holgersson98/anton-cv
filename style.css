@@ -1,0 +1,327 @@
+body{
+  display: flex;
+  flex-direction: column;
+    background-image: url(webb.jfif);
+}
+
+p{
+  justify-content: center;
+  text-align:center;
+}
+h2{
+display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+
+    .flex-container{
+      display: flex;
+      
+      justify-content:center;
+      
+      
+    }
+    #navbar {
+      overflow: hidden;
+      background-color: white;
+      border-style: solid;
+      
+      
+    }
+   
+    
+    
+    #navbar a {
+      float: left;
+      font-size: 16px;
+      color: black;
+      text-align: center;
+      padding: 15px 16px;
+      text-decoration: none;
+      
+    }
+    .om5 a{
+      color: black;
+      text-decoration: none;
+    }
+    
+    
+
+   
+    
+    
+    
+   
+    
+    
+  
+  .flex-container2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 30px;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+  }
+  .flex-container3{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 30px;
+    
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+  }
+  .flex-container5{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 30px;
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+  }
+  .flex-container4{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 30px;
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+  }
+  .flex-container5{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 30px;
+    
+    
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+   
+    
+    
+  }
+ 
+  
+  
+ 
+  .om > h1{
+    text-align: center;
+  }
+  ul{
+    text-align: left;
+  }
+  .om2 > h1{
+    text-align: center;
+  }
+  .om3 > h1{
+    text-align: center;
+  }
+  .om4 > h1{
+    text-align: center;
+  }
+  .om5 > h1{
+    text-align: center;
+  }
+  
+ 
+ 
+
+
+.om{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    text-align: center;
+    width: 25%;
+    background-color: white;
+    border-style: solid;
+    
+    
+    
+   
+    
+    
+    
+}
+
+.om2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    width: 22%;
+    justify-content: center;
+    
+    
+  
+  }
+  
+  
+ 
+  .om3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    text-align: center;
+    width: 25%;
+    background-color: white;
+    border-style: solid;
+    
+    
+    
+  }
+  .om3 > ul{
+    text-align: center;
+  }
+  .om3 > h1{
+    text-align:  center;
+    }
+  .om4{
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    text-align: center;
+    width: 25%;
+    background-color: white;
+    border-style: solid;
+    
+    
+    
+    
+    }
+    .om4 > ul{
+      text-align: center;
+    }
+    .om4 > h1{
+      text-align:  center;
+    }
+    .om5{
+      display: flex;
+    flex-direction: column;
+    justify-content: top;
+    text-align: center;
+    width: 25%;
+    background-color: white;
+    border-style: solid;
+      
+      
+      
+      }
+
+      .om4 a{
+        font-size: 16px;
+        color: black;
+        text-align: center;
+        padding: 15px 16px;
+        text-decoration: none;
+      }
+      
+      .om5 > ul{
+        text-align: center;
+      }
+      .om5 > h1{
+        text-align:  center;
+      }
+     
+    
+@media (max-width: 1000px ) {
+    h1{
+        font-size: 50%;
+    }
+    p{
+        font-size: 50%;
+    }
+    li{
+        font-size: 50%;
+    }
+    ul{
+        font-size: 50%;
+    }
+    h3{
+      font-size: 50%;
+  }
+  @media screen and (max-width: 600px) {
+    .om3{
+      width: 100%;
+    }
+    .om4{
+      width: 100%;
+    }
+    .om5{
+      width: 100%;
+    }
+    .om2{
+      width: 100%;
+    }
+    .om{
+      width: 100%;
+    }
+   
+    
+  }
+ 
+
+}
+
